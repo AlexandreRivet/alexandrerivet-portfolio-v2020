@@ -3,6 +3,7 @@ import Timer from "./Utils/Timer";
 import Resources from "./Resources.js";
 
 import * as dat from "dat.gui";
+import World from "./World";
 
 export default class WebGLApplication {
   constructor(options) {
@@ -58,7 +59,8 @@ export default class WebGLApplication {
 
     this._camera = null;
 
-    this._world = null;
+    this._world = new World();
+    this._scene.add(this._world);
   }
 
   _bindEvents() {
@@ -66,7 +68,6 @@ export default class WebGLApplication {
       // check for dimension
       const { clientWidth, clientHeight } = this._canvas;
       if (this._cW !== clientWidth || this._cH !== clientHeight) {
-        console.log("resizing");
         this._cW = clientWidth;
         this._cH = clientHeight;
 

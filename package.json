@@ -7,10 +7,11 @@
     "dev": "next",
     "start": "next start",
     "build": "next build",
-    "now-dev": "now dev",
-    "now-prod": "now",
-    "now-staging": "now --target=staging",
-    "now-development": ""
+    
+    "deploy:local-dev": "now dev",
+    "deploy:prod": "now",
+    "deploy:staging": "now --target=staging",
+    "deploy:dev": "CURL -X POST https://api.zeit.co/v1/integrations/deploy/QmUt373ecN5M5ARVTL5DEvVtcdoL78xPNS4h4ATC4GAhQu/yx2ILxLQD6"
   },
   "repository": {
     "type": "git",

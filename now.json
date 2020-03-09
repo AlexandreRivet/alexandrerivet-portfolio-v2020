@@ -2,7 +2,9 @@
     "version": 2,
     "name": "portfolio-alexandrerivet-2020",
     "public": false,
+    "alias": ["alexandrerivet.com", "alexandrerivet.fr"],
     "github": {
-        "enabled": true
+        "enabled": true,
+        "autoAlias": false
     }
 }

@@ -65,3 +65,5 @@ build/
 
 # mac
 .DS_Store
+
+.now

@@ -9,7 +9,7 @@
     "build": "next build",
     
     "deploy:local-dev": "now dev",
-    "deploy:prod": "now",
+    "deploy:prod": "now --prod",
     "deploy:staging": "now --target=staging",
     "deploy:dev": "CURL -X POST https://api.zeit.co/v1/integrations/deploy/QmUt373ecN5M5ARVTL5DEvVtcdoL78xPNS4h4ATC4GAhQu/yx2ILxLQD6"
   },

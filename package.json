@@ -1,0 +1,36 @@
+{
+  "name": "alexandrerivet-portfolio-v2020",
+  "version": "1.0.0",
+  "description": "Portfolio 2020",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "now-dev": "now dev",
+    "now-prod": "now",
+    "now-staging": "now --target=staging",
+    "now-development": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreRivet/alexandrerivet-portfolio-v2020.git"
+  },
+  "keywords": [
+    "NextJS",
+    "React",
+    "WebGL",
+    "ThreeJS"
+  ],
+  "author": "Alexandre Rivet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandreRivet/alexandrerivet-portfolio-v2020/issues"
+  },
+  "homepage": "https://github.com/AlexandreRivet/alexandrerivet-portfolio-v2020#readme",
+  "dependencies": {
+    "next": "^9.2.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}

@@ -1,3 +1,3 @@
 export default () => {
-    return <div>COMING SOON - DEVELOPMENT</div>
+    return <div>COMING SOON - STAGING</div>
 }

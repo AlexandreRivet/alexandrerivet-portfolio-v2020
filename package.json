@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/AlexandreRivet/alexandrerivet-portfolio-v2020#readme",
   "dependencies": {
-    "next": "^9.2.2",
+    "next": "^9.3.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   }

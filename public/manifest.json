@@ -1,0 +1,9 @@
+{
+  "name": "Alexandre Rivet",
+  "short_name": "AR",
+  "description": "Portfolio d'Alexandre Rivet",
+  "theme_color": "#ffffff",
+  "background_color": "#000000",
+  "start_url": "/?utm_source=web_app_manifest",
+  "display": "standalone"
+}

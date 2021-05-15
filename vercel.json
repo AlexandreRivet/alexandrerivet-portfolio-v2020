@@ -1,0 +1,11 @@
+{
+    "public": false,
+    "github": {
+        "enabled": true,
+        "autoAlias": false,
+        "silent": true,
+        "autoJobCancelation": true
+    },
+    "trailingSlash": false,
+    "cleanUrls": true
+}

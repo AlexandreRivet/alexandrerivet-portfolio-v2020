@@ -1,9 +1,14 @@
+import Layout from "../src/components/Layout";
 import Meta from "../src/components/Meta";
+
+import '../styles/styles.css';
 
 const App = ({ Component, pageProps }) => (
   <>
     <Meta />
-    <Component {...pageProps} />
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
   </>
 );
 

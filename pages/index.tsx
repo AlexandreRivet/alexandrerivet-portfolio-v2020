@@ -1,3 +1,3 @@
-const Index = () => <div>COMING SOON</div>
+const Index = () => <div>COMING SOON STAGING</div>
 
 export default Index;
